@@ -21,7 +21,9 @@ build/
 *.csv
 *.pkl
 *.parquet
-datasets/
+datasets/synthetic/*.csv
+datasets/synthetic/*.parquet
+!datasets/synthetic/*.py
 
 # Environment
 .env
