@@ -1,0 +1,40 @@
+{
+  "phase_1_immediate": {
+    "roles": [
+      "CRITICAL_ACCESS_ROLE"
+    ],
+    "users_affected": 63,
+    "actions": [
+      "Review the Critical Access Role definition with security team",
+      "Identify users who already have 80%+ of entitlements",
+      "Add missing entitlements and convert to role-based access",
+      "Implement weekly review cycle for Critical roles"
+    ],
+    "timeline_days": 3
+  },
+  "phase_2_this_week": {
+    "roles": [
+      "HIGH_RISK_ANALYST_ROLE"
+    ],
+    "users_affected": 53,
+    "actions": [
+      "Validate High Risk Analyst Role with Finance department",
+      "Create role in IGA platform (SailPoint/Active Directory)",
+      "Migrate users with 100% coverage first",
+      "Schedule manager approval for remaining users"
+    ],
+    "timeline_days": 5
+  },
+  "phase_3_next_week": {
+    "roles": [
+      "STANDARD_BUNDLE_ROLE"
+    ],
+    "users_affected": 45,
+    "actions": [
+      "Create Standard Bundle Role",
+      "Gradually migrate users during regular access reviews",
+      "Monitor for any access issues post-migration"
+    ],
+    "timeline_days": 7
+  }
+}

@@ -48,7 +48,7 @@ class RoleManager:
                 "role_name": role['name'],
                 "users_with_partial_coverage": len(users_with_ents),
                 "users_with_full_coverage": len([u for u in users_with_ents if u['coverage_percentage'] == 100]),
-                "details": users_with_ents[:5]  # Show first 5 users
+                "details": users_with_ents[:5]
             })
             
             print(f"\n📦 Role: {role['name']} ({role['role_id']})")
@@ -79,7 +79,6 @@ class RoleManager:
                 missing_ents = role_ents - user_ents
                 
                 if len(missing_ents) > 0 and len(missing_ents) < len(role_ents):
-                    # User already has some entitlements from this role
                     recommendations.append({
                         "user_id": user_id,
                         "role_id": role['role_id'],
@@ -187,7 +186,7 @@ class RoleManager:
 def main():
     print("="*60)
     print("🏢 ROLE MANAGEMENT SYSTEM")
-    print="="*60)
+    print("="*60)
     
     # Initialize manager
     manager = RoleManager(

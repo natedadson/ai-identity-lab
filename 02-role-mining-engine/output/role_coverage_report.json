@@ -1,0 +1,192 @@
+[
+  {
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "users_with_partial_coverage": 63,
+    "users_with_full_coverage": 0,
+    "details": [
+      {
+        "user_id": "user_0001",
+        "matching_entitlements": 2,
+        "total_entitlements_in_role": 5,
+        "coverage_percentage": 40.0,
+        "missing_entitlements": [
+          "ent_146",
+          "ent_087",
+          "ent_033"
+        ]
+      },
+      {
+        "user_id": "user_0003",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 5,
+        "coverage_percentage": 20.0,
+        "missing_entitlements": [
+          "ent_146",
+          "ent_087",
+          "ent_030",
+          "ent_158"
+        ]
+      },
+      {
+        "user_id": "user_0007",
+        "matching_entitlements": 2,
+        "total_entitlements_in_role": 5,
+        "coverage_percentage": 40.0,
+        "missing_entitlements": [
+          "ent_146",
+          "ent_033",
+          "ent_030"
+        ]
+      },
+      {
+        "user_id": "user_0026",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 5,
+        "coverage_percentage": 20.0,
+        "missing_entitlements": [
+          "ent_146",
+          "ent_087",
+          "ent_033",
+          "ent_158"
+        ]
+      },
+      {
+        "user_id": "user_0031",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 5,
+        "coverage_percentage": 20.0,
+        "missing_entitlements": [
+          "ent_146",
+          "ent_087",
+          "ent_030",
+          "ent_158"
+        ]
+      }
+    ]
+  },
+  {
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "users_with_partial_coverage": 53,
+    "users_with_full_coverage": 0,
+    "details": [
+      {
+        "user_id": "user_0012",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_092",
+          "ent_049",
+          "ent_197"
+        ]
+      },
+      {
+        "user_id": "user_0016",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_019",
+          "ent_049",
+          "ent_197"
+        ]
+      },
+      {
+        "user_id": "user_0019",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_092",
+          "ent_019",
+          "ent_197"
+        ]
+      },
+      {
+        "user_id": "user_0031",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_092",
+          "ent_019",
+          "ent_049"
+        ]
+      },
+      {
+        "user_id": "user_0072",
+        "matching_entitlements": 2,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 50.0,
+        "missing_entitlements": [
+          "ent_092",
+          "ent_197"
+        ]
+      }
+    ]
+  },
+  {
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "users_with_partial_coverage": 45,
+    "users_with_full_coverage": 0,
+    "details": [
+      {
+        "user_id": "user_0007",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_184",
+          "ent_009",
+          "ent_053"
+        ]
+      },
+      {
+        "user_id": "user_0015",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_184",
+          "ent_009",
+          "ent_053"
+        ]
+      },
+      {
+        "user_id": "user_0021",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_009",
+          "ent_112",
+          "ent_053"
+        ]
+      },
+      {
+        "user_id": "user_0092",
+        "matching_entitlements": 2,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 50.0,
+        "missing_entitlements": [
+          "ent_112",
+          "ent_053"
+        ]
+      },
+      {
+        "user_id": "user_0109",
+        "matching_entitlements": 1,
+        "total_entitlements_in_role": 4,
+        "coverage_percentage": 25.0,
+        "missing_entitlements": [
+          "ent_009",
+          "ent_112",
+          "ent_053"
+        ]
+      }
+    ]
+  }
+]

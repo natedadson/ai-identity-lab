@@ -1,0 +1,2459 @@
+[
+  {
+    "user_id": "user_0001",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0003",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0007",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0026",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0031",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0032",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0034",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0038",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0053",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0080",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0108",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0123",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0130",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0137",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0138",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0168",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0180",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0186",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0210",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0211",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0212",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0256",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0277",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0279",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 1,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0310",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 1,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0350",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0356",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0360",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0372",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 1,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0392",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0430",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 1,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0433",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0434",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0458",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0475",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 1,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0492",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0501",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0517",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0522",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0533",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0578",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0585",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0589",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0617",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0639",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0641",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0661",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0685",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0689",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 1,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0714",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0718",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0728",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0744",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0770",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0804",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0863",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_033",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0884",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0885",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0893",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 4,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0934",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 3,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0940",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 5,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0963",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_087",
+      "ent_030",
+      "ent_158"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0978",
+    "role_id": "CRITICAL_ACCESS_ROLE",
+    "role_name": "Critical Access Role",
+    "current_entitlements": 2,
+    "role_entitlements": 5,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_146",
+      "ent_158",
+      "ent_033",
+      "ent_030"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0012",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0016",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0019",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0031",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0072",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0165",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0177",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0191",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0192",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0202",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0206",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0212",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0241",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0242",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0248",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0262",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0296",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0300",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0304",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0313",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0316",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0322",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0326",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0331",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0345",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0355",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0360",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0386",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0396",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0403",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0436",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0443",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0464",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0466",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0488",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0515",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0532",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0535",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0587",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0592",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0628",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0629",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0670",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0704",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0726",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0744",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0785",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0791",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0794",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0833",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0845",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_049",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0869",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_019",
+      "ent_049"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0987",
+    "role_id": "HIGH_RISK_ANALYST_ROLE",
+    "role_name": "High Risk Analyst Role",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_092",
+      "ent_019",
+      "ent_197"
+    ],
+    "priority": "HIGH",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0007",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0015",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0021",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0092",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0109",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0123",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0159",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0162",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0183",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0207",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0259",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0280",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0285",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0309",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0441",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0444",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0479",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0491",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0504",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0509",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0515",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0517",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0549",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0626",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0630",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0697",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0737",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0754",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0767",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0780",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0793",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0805",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 2,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0809",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0811",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0832",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0840",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 1,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0879",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0889",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0897",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 2,
+    "missing_entitlements": [
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0908",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0910",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0930",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_112",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0940",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 5,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0956",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 4,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_009",
+      "ent_112",
+      "ent_184"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  },
+  {
+    "user_id": "user_0998",
+    "role_id": "STANDARD_BUNDLE_ROLE",
+    "role_name": "Standard Access Bundle",
+    "current_entitlements": 3,
+    "role_entitlements": 4,
+    "already_have": 1,
+    "missing_entitlements": [
+      "ent_184",
+      "ent_009",
+      "ent_053"
+    ],
+    "priority": "MEDIUM",
+    "action": "Add missing entitlements and convert to role-based access"
+  }
+]
