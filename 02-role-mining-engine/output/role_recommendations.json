@@ -1,0 +1,11 @@
+{
+  "avg_entitlements_per_user": 2.7355072463768115,
+  "total_users": 828,
+  "unique_entitlements": 200,
+  "risk_based_roles": {
+    "Critical": 75,
+    "High": 91,
+    "Low": 16,
+    "Medium": 18
+  }
+}
