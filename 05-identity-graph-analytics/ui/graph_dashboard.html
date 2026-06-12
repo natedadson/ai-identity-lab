@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Identity Graph Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container { background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+        h1 { color: #0066cc; }
+        .query-card {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #0066cc;
+            cursor: pointer;
+        }
+        .query-card:hover { background: #e9ecef; }
+        .query-title { font-weight: bold; margin-bottom: 5px; }
+        .query-code { 
+            font-family: monospace; 
+            font-size: 12px; 
+            color: #666;
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .badge-neo4j { background: #0066cc; color: white; }
+        .stats-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            text-align: center;
+            min-width: 150px;
+        }
+        .stats-number { font-size: 36px; font-weight: bold; color: #0066cc; }
+        .flex-row { display: flex; gap: 20px; margin: 20px 0; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Identity Graph Analytics</h1>
+        <p>Visualizing relationships between users, entitlements, and risks using Neo4j</p>
+        
+        <div class="badge badge-neo4j">Neo4j Graph Database</div>
+        
+        <h2>📊 Graph Statistics</h2>
+        <div class="flex-row">
+            <div class="stats-card">
+                <div class="stats-number">828</div>
+                <div>Users</div>
+            </div>
+            <div class="stats-card">
+                <div class="stats-number">200</div>
+                <div>Entitlements</div>
+            </div>
+            <div class="stats-card">
+                <div class="stats-number">2,275</div>
+                <div>Relationships</div>
+            </div>
+            <div class="stats-card">
+                <div class="stats-number">4</div>
+                <div>Risk Levels</div>
+            </div>
+        </div>
+        
+        <h2>🔍 Analysis Queries</h2>
+        <p>Click any query to copy - then paste in Neo4j Browser</p>
+        
+        <div id="queries"></div>
+        
+        <h2>🌐 Neo4j Browser</h2>
+        <p>Open <a href="http://localhost:7474" target="_blank">http://localhost:7474</a> to run queries and visualize the graph!</p>
+        <p><strong>Credentials:</strong> neo4j / password123</p>
+        
+        <h2>📈 Sample Visualizations</h2>
+        <p>Run these queries in Neo4j Browser to see the graph:</p>
+        <ul>
+            <li><code>MATCH (n) RETURN n LIMIT 50</code> - See 50 random nodes</li>
+            <li><code>MATCH (u:User)-[:HAS_ACCESS]->(e:Entitlement) RETURN u, e LIMIT 100</code> - User-entitlement relationships</li>
+            <li><code>MATCH p=(:User)-[:HAS_ACCESS]->(:Entitlement)-[:HAS_RISK]->(:Risk) RETURN p LIMIT 50</code> - Complete risk paths</li>
+        </ul>
+    </div>
+
+    <script>
+        const queries = [
+            { title: "Users with Critical Risk Access", 
+              query: "MATCH (u:User)-[:HAS_ACCESS]->(e:Entitlement)-[:HAS_RISK]->(r:Risk {level: 'Critical'})\nRETURN u.user_id, u.department, e.name LIMIT 20" },
+            { title: "Most Dangerous Users (Most Critical Entitlements)", 
+              query: "MATCH (u:User)-[:HAS_ACCESS]->(e:Entitlement)-[:HAS_RISK]->(r:Risk {level: 'Critical'})\nRETURN u.user_id, u.department, u.role, COUNT(e) as critical_count\nORDER BY critical_count DESC LIMIT 10" },
+            { title: "Entitlement Co-occurrence (Role Candidates)", 
+              query: "MATCH (u:User)-[:HAS_ACCESS]->(e1:Entitlement)\nMATCH (u)-[:HAS_ACCESS]->(e2:Entitlement)\nWHERE e1.entitlement_id < e2.entitlement_id\nRETURN e1.name, e2.name, COUNT(*) as co_occurrence\nORDER BY co_occurrence DESC LIMIT 10" },
+            { title: "Stale Access (Unused > 90 days)", 
+              query: "MATCH (u:User)-[r:HAS_ACCESS]->(e:Entitlement)\nWHERE r.days_since_last_use > 90 OR r.days_since_last_use = -1\nRETURN u.user_id, COUNT(e) as stale_entitlements\nORDER BY stale_entitlements DESC LIMIT 10" },
+            { title: "Department Risk Summary", 
+              query: "MATCH (u:User)-[:BELONGS_TO]->(d:Department)\nMATCH (u)-[:HAS_ACCESS]->(e:Entitlement)-[:HAS_RISK]->(r:Risk)\nRETURN d.name, r.level, COUNT(DISTINCT u) as users, COUNT(e) as entitlements\nORDER BY d.name, r.score DESC" },
+            { title: "Graph Statistics", 
+              query: "MATCH (u:User) WITH COUNT(u) as users\nMATCH (e:Entitlement) WITH users, COUNT(e) as ents\nMATCH (r:Risk) WITH users, ents, COUNT(r) as risks\nMATCH ()-[rel:HAS_ACCESS]->() WITH users, ents, risks, COUNT(rel) as relationships\nRETURN users, ents, risks, relationships" },
+            { title: "Find Path to Admin Access (Privilege Escalation)", 
+              query: "MATCH p = (u:User)-[:HAS_ACCESS*1..3]->(e:Entitlement)\nWHERE e.risk_level = 'Critical'\nRETURN u.user_id, length(p) as path_length, e.name\nORDER BY path_length LIMIT 10" },
+            { title: "SOD Violation Candidates (Create + Delete)", 
+              query: "MATCH (u:User)-[:HAS_ACCESS]->(e1:Entitlement)\nMATCH (u)-[:HAS_ACCESS]->(e2:Entitlement)\nWHERE (e1.name CONTAINS 'create' AND e2.name CONTAINS 'delete')\n   OR (e1.name CONTAINS 'approve' AND e2.name CONTAINS 'receive')\nRETURN DISTINCT u.user_id, e1.name as ent1, e2.name as ent2\nLIMIT 10" }
+        ];
+        
+        const container = document.getElementById('queries');
+        
+        queries.forEach((q, idx) => {
+            const card = document.createElement('div');
+            card.className = 'query-card';
+            card.innerHTML = `
+                <div class="query-title">📋 ${q.title}</div>
+                <div class="query-code" id="code-${idx}">${q.query.replace(/\n/g, '<br>')}</div>
+            `;
+            card.onclick = () => {
+                navigator.clipboard.writeText(q.query);
+                alert('✓ Query copied to clipboard!\n\nPaste in Neo4j Browser at http://localhost:7474');
+            };
+            container.appendChild(card);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "total_nodes": 1200,
+  "total_edges": 2265,
+  "graph_density": 0.0016,
+  "users": 1000,
+  "entitlements": 200,
+  "is_connected": false,
+  "components": 173
+}
