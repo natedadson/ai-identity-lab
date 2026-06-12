@@ -1,0 +1,94 @@
+{
+  "sod_rules": [
+    {
+      "rule_id": "SOD-001",
+      "name": "Vendor Management Fraud",
+      "description": "User cannot both create vendors and approve payments",
+      "risk_level": "Critical",
+      "entitlement_pairs": [
+        ["create_vendor", "approve_payment"],
+        ["create_vendor", "payment_approval"],
+        ["vendor_creation", "invoice_approval"]
+      ],
+      "business_process": "Accounts Payable",
+      "mitigation": "Require two-person approval for vendors over $10,000",
+      "audit_frequency_days": 30
+    },
+    {
+      "rule_id": "SOD-002",
+      "name": "Payroll Fraud",
+      "description": "User cannot both view and edit salary information",
+      "risk_level": "Critical",
+      "entitlement_pairs": [
+        ["view_salary", "edit_salary"],
+        ["salary_view", "salary_modify"],
+        ["compensation_view", "compensation_edit"]
+      ],
+      "business_process": "HR/Payroll",
+      "mitigation": "Separate HR and Payroll roles",
+      "audit_frequency_days": 30
+    },
+    {
+      "rule_id": "SOD-003",
+      "name": "Account Management Abuse",
+      "description": "User cannot both create and delete user accounts",
+      "risk_level": "High",
+      "entitlement_pairs": [
+        ["create_user", "delete_user"],
+        ["user_creation", "user_deletion"],
+        ["add_user", "remove_user"]
+      ],
+      "business_process": "Identity Management",
+      "mitigation": "Require manager approval for deletions",
+      "audit_frequency_days": 60
+    },
+    {
+      "rule_id": "SOD-004",
+      "name": "Procurement Fraud",
+      "description": "User cannot both approve purchases and receive goods",
+      "risk_level": "High",
+      "entitlement_pairs": [
+        ["approve_purchase", "receive_goods"],
+        ["purchase_approval", "goods_receipt"],
+        ["po_approval", "inventory_receipt"]
+      ],
+      "business_process": "Procurement",
+      "mitigation": "Segregate purchasing and receiving",
+      "audit_frequency_days": 60
+    },
+    {
+      "rule_id": "SOD-005",
+      "name": "Expense Reimbursement Fraud",
+      "description": "User cannot both submit and approve expenses",
+      "risk_level": "High",
+      "entitlement_pairs": [
+        ["submit_expense", "approve_expense"],
+        ["expense_report", "expense_approval"],
+        ["reimbursement_request", "reimbursement_approval"]
+      ],
+      "business_process": "Finance",
+      "mitigation": "Manager approval required for expenses",
+      "audit_frequency_days": 30
+    },
+    {
+      "rule_id": "SOD-006",
+      "name": "Access Control Violation",
+      "description": "User cannot both grant and revoke privileged access",
+      "risk_level": "Critical",
+      "entitlement_pairs": [
+        ["grant_admin", "revoke_admin"],
+        ["assign_role", "remove_role"],
+        ["privilege_grant", "privilege_revoke"]
+      ],
+      "business_process": "IAM",
+      "mitigation": "Separate administration and audit roles",
+      "audit_frequency_days": 30
+    }
+  ],
+  "metadata": {
+    "total_rules": 6,
+    "generated_date": "2026-06-12",
+    "version": "1.0",
+    "compliance_frameworks": ["SOX", "HIPAA", "GDPR", "NIST 800-53"]
+  }
+}
