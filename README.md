@@ -146,18 +146,6 @@ ai-identity-lab/
 - [SOD Violation Report](03-sod-detection-system/output/sod_violations.json)
 - [Graph Analysis](05-identity-graph-analytics/output/graph_report.json)
 
-## 🔜 Next Steps
-
-- [x] Synthetic data generator
-- [x] ML risk scoring model
-- [x] REST API deployment
-- [x] AI access reviewer (Llama 3 + RAG)
-- [x] Role mining engine
-- [x] SOD detection system
-- [x] Identity graph analytics
-- [x] Research paper submission
-- [ ] arXiv publication
-- [ ] Cloud deployment
 
 ## 📧 Contact
 
@@ -172,7 +160,7 @@ MIT License - Free for academic and commercial use with attribution.
 
 ---
 
-**Built in 6 days. 6 projects. ~2,000 lines of code. 91.9% accuracy.**
+**6 projects. ~2,000 lines of code. 91.9% accuracy.**
 
 *The future of identity governance is not human or machine. It is human and machine, working together.*
 ```
