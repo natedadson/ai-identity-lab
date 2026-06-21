@@ -28,6 +28,7 @@ All 6 projects are **COMPLETE** with working code, APIs, and web dashboards.
 | 4 | **AI Access Review Assistant** | ✅ Complete | Llama 3, Ollama, RAG | Local LLM with 11.5s response |
 | 5 | **Identity Graph Analytics** | ✅ Complete | NetworkX, Neo4j, matplotlib | 1,028 nodes, 2,275 relationships |
 | 6 | **REST API + Web Dashboard** | ✅ Complete | FastAPI, HTML/JS | Production-ready endpoints |
+| 7 | **UEBA Detection** | ✅ Complete | Behavioral baselines, FastAPI, anomaly detection | 706 alerts from 9,062 events |
 
 ## 🚀 Quick Start
 
@@ -78,6 +79,12 @@ python 04-ai-access-review-assistant/src/simple_rag.py
 open 04-ai-access-review-assistant/ui/simple_web.html
 ```
 
+### Run the UEBA Detection API
+
+```bash
+python 06-ueba-detection/src/ueba_api.py
+
+
 ## 📁 Project Structure
 
 ```
@@ -88,6 +95,7 @@ ai-identity-lab/
 ├── 03-sod-detection-system/       # ✅ SOD Violation Detection
 ├── 04-ai-access-review-assistant/ # ✅ LLM + RAG Reviewer
 ├── 05-identity-graph-analytics/   # ✅ Graph Analytics
+├── 06-ueba-detection/             # ✅ User & Entity Behavior Analytics
 ├── datasets/                      # Synthetic identity data
 ├── research-papers/               # Academic publications
 └── linkedin-articles/             # Technical blog posts
@@ -121,13 +129,20 @@ ai-identity-lab/
 - **2,275 relationships**
 - **1,432 similar user pairs** discovered
 
+### UEBA Detection
+- **100 users** with behavioral baselines
+- **9,062 events** analyzed
+- **706 alerts** generated (99 critical, 607 high)
+- **4 anomaly types**: Unusual hours, locations, apps, rapid access
+- **Real-time API** with interactive dashboard
+
 ## 🧪 Research Paper
 
 **Title:** *AI-Assisted Access Reviews: A Framework for Reducing Reviewer Fatigue While Maintaining Compliance*
 
 **Status:** Submitted to arXiv (pending)
 
-**Abstract:** Access certifications place significant burden on business reviewers, with fatigue leading to rubber-stamping and undetected privilege creep. This paper presents a framework for AI-assisted access reviews using Random Forest risk scoring and Llama 3 with RAG. Evaluation on synthetic data of 828 users and 2,265 assignments achieved 91.9% risk detection accuracy and simulated 82.5% review time reduction.
+**Abstract:** Access certifications place a significant burden on business reviewers, with fatigue leading to rubber-stamping and undetected privilege creep. This paper presents a framework for AI-assisted access reviews using Random Forest risk scoring and Llama 3 with RAG. Evaluation on synthetic data of 828 users and 2,265 assignments achieved 91.9% risk detection accuracy and simulated 82.5% review time reduction.
 
 ## 🛠️ Technologies
 
@@ -136,6 +151,7 @@ ai-identity-lab/
 | **ML & AI** | scikit-learn, Random Forest, Llama 3, Ollama |
 | **Backend** | Python, FastAPI, Uvicorn |
 | **Data** | Pandas, NumPy, NetworkX, Neo4j |
+| **Analytics** | Behavioral baselines, Anomaly detection, UEBA |
 | **Frontend** | HTML/CSS, JavaScript |
 | **DevOps** | Docker, Git |
 
@@ -145,6 +161,7 @@ ai-identity-lab/
 - [Role Mining Report](02-role-mining-engine/output/implementation_plan.json)
 - [SOD Violation Report](03-sod-detection-system/output/sod_violations.json)
 - [Graph Analysis](05-identity-graph-analytics/output/graph_report.json)
+- [UEBA Alerts](06-ueba-detection/output/alerts.json)
 
 
 ## 📧 Contact
@@ -160,56 +177,7 @@ MIT License - Free for academic and commercial use with attribution.
 
 ---
 
-**6 projects. ~2,000 lines of code. 91.9% accuracy.**
+**7 projects. ~2,500 lines of code. 91.9% accuracy. 706 UEBA alerts.**
 
 *The future of identity governance is not human or machine. It is human and machine, working together.*
-```
 
----
-
-## Step 2: Replace Your README
-
-Run these commands in your terminal:
-
-```bash
-cd ~/ai-identity-lab
-
-# Open README for editing
-nano README.md
-```
-
-**In nano:**
-1. `Ctrl + A` (go to beginning)
-2. `Ctrl + K` repeatedly until file is empty
-3. Paste the new README (right-click → Paste)
-4. `Ctrl + O` (save)
-5. `Enter` (confirm)
-6. `Ctrl + X` (exit)
-
-## Step 3: Commit and Push
-
-```bash
-git add README.md
-git commit -m "docs: complete README overhaul
-
-- Marked all 6 projects as COMPLETE
-- Added key metrics (91.9% accuracy, 1,028 nodes)
-- Added research paper section
-- Added technology stack table
-- Professional formatting with badges"
-
-git push
-```
-
-## Step 4: Verify
-
-Open your browser and go to:
-```
-https://github.com/natedadson/ai-identity-lab
-```
-
-You should see the new professional README with all projects marked complete.
-
----
-
-**That's it! Your GitHub repository now reflects 6 days of serious work.**
