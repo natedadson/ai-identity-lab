@@ -1,0 +1,2242 @@
+[
+  {
+    "user_id": "user_0000",
+    "department": "Executive",
+    "location": "Toronto",
+    "role": "Analyst",
+    "tenure_days": 1548,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "Workday",
+      "Google Workspace",
+      "ServiceNow"
+    ],
+    "risk_score": 0.1771477537347119
+  },
+  {
+    "user_id": "user_0001",
+    "department": "Finance",
+    "location": "Toronto",
+    "role": "Analyst",
+    "tenure_days": 477,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Google Workspace",
+      "GitHub",
+      "ServiceNow",
+      "Slack",
+      "Workday",
+      "Azure Portal"
+    ],
+    "risk_score": 0.1767797051627726
+  },
+  {
+    "user_id": "user_0002",
+    "department": "Finance",
+    "location": "New York",
+    "role": "Engineer",
+    "tenure_days": 726,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Workday",
+      "ServiceNow",
+      "Slack"
+    ],
+    "risk_score": 0.029014913050039202
+  },
+  {
+    "user_id": "user_0003",
+    "department": "Sales",
+    "location": "Chicago",
+    "role": "Admin",
+    "tenure_days": 1682,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Workday",
+      "Slack",
+      "ServiceNow",
+      "Jira",
+      "Azure Portal"
+    ],
+    "risk_score": 0.188591939848333
+  },
+  {
+    "user_id": "user_0004",
+    "department": "Sales",
+    "location": "Chicago",
+    "role": "Manager",
+    "tenure_days": 1472,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "GitHub",
+      "Jira",
+      "Workday",
+      "SAP",
+      "Azure Portal",
+      "Google Workspace",
+      "AWS Console",
+      "Slack"
+    ],
+    "risk_score": 0.19070533327932004
+  },
+  {
+    "user_id": "user_0005",
+    "department": "Sales",
+    "location": "New York",
+    "role": "Admin",
+    "tenure_days": 757,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "SAP",
+      "ServiceNow",
+      "Workday",
+      "AWS Console",
+      "GitHub"
+    ],
+    "risk_score": 0.04902074812857852
+  },
+  {
+    "user_id": "user_0006",
+    "department": "HR",
+    "location": "London",
+    "role": "Executive",
+    "tenure_days": 479,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "GitHub",
+      "Salesforce",
+      "Confluence"
+    ],
+    "risk_score": 0.12034943610669868
+  },
+  {
+    "user_id": "user_0007",
+    "department": "Finance",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 1824,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "ServiceNow",
+      "Zoom",
+      "Slack",
+      "SAP"
+    ],
+    "risk_score": 0.04286147713261879
+  },
+  {
+    "user_id": "user_0008",
+    "department": "Engineering",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 1133,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Slack",
+      "Azure Portal",
+      "SAP",
+      "Confluence",
+      "GitHub",
+      "Workday",
+      "Jira"
+    ],
+    "risk_score": 0.1480547504668893
+  },
+  {
+    "user_id": "user_0009",
+    "department": "Finance",
+    "location": "Toronto",
+    "role": "Manager",
+    "tenure_days": 1315,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Workday",
+      "Slack",
+      "SAP",
+      "Zoom",
+      "Jira"
+    ],
+    "risk_score": 0.07542423599454395
+  },
+  {
+    "user_id": "user_0010",
+    "department": "IT",
+    "location": "Toronto",
+    "role": "Analyst",
+    "tenure_days": 1426,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Workday",
+      "Jira",
+      "Slack",
+      "AWS Console",
+      "GitHub",
+      "Salesforce",
+      "Zoom"
+    ],
+    "risk_score": 0.2915664296610343
+  },
+  {
+    "user_id": "user_0011",
+    "department": "Engineering",
+    "location": "Chicago",
+    "role": "Analyst",
+    "tenure_days": 1812,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Azure Portal",
+      "GitHub",
+      "AWS Console",
+      "Confluence",
+      "Slack",
+      "Workday",
+      "Jira"
+    ],
+    "risk_score": 0.2860499242960508
+  },
+  {
+    "user_id": "user_0012",
+    "department": "IT",
+    "location": "Toronto",
+    "role": "Executive",
+    "tenure_days": 693,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Jira",
+      "GitHub"
+    ],
+    "risk_score": 0.017377549948256264
+  },
+  {
+    "user_id": "user_0013",
+    "department": "IT",
+    "location": "Toronto",
+    "role": "Analyst",
+    "tenure_days": 1528,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "SAP",
+      "Zoom",
+      "Google Workspace",
+      "ServiceNow",
+      "Azure Portal",
+      "Jira"
+    ],
+    "risk_score": 0.26172991232557724
+  },
+  {
+    "user_id": "user_0014",
+    "department": "HR",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 1576,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "SAP",
+      "Jira",
+      "Slack",
+      "Confluence"
+    ],
+    "risk_score": 0.1314300251743512
+  },
+  {
+    "user_id": "user_0015",
+    "department": "IT",
+    "location": "Remote",
+    "role": "Analyst",
+    "tenure_days": 537,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Azure Portal",
+      "Google Workspace",
+      "GitHub",
+      "ServiceNow"
+    ],
+    "risk_score": 0.0021572516955280616
+  },
+  {
+    "user_id": "user_0016",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 498,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Workday",
+      "Google Workspace",
+      "GitHub",
+      "Jira",
+      "Zoom"
+    ],
+    "risk_score": 0.06427104221113157
+  },
+  {
+    "user_id": "user_0017",
+    "department": "Engineering",
+    "location": "Austin",
+    "role": "Executive",
+    "tenure_days": 1210,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Slack",
+      "GitHub",
+      "Workday",
+      "Azure Portal",
+      "SAP",
+      "AWS Console"
+    ],
+    "risk_score": 0.12707358690597623
+  },
+  {
+    "user_id": "user_0018",
+    "department": "HR",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 1409,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Slack",
+      "Confluence"
+    ],
+    "risk_score": 0.24017775325850962
+  },
+  {
+    "user_id": "user_0019",
+    "department": "Finance",
+    "location": "New York",
+    "role": "Manager",
+    "tenure_days": 419,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Slack",
+      "AWS Console",
+      "Jira",
+      "Zoom"
+    ],
+    "risk_score": 0.07494193436463015
+  },
+  {
+    "user_id": "user_0020",
+    "department": "Finance",
+    "location": "Remote",
+    "role": "Executive",
+    "tenure_days": 230,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Workday",
+      "GitHub",
+      "AWS Console",
+      "Slack",
+      "Azure Portal",
+      "Zoom"
+    ],
+    "risk_score": 0.0641241897597545
+  },
+  {
+    "user_id": "user_0021",
+    "department": "HR",
+    "location": "Toronto",
+    "role": "Manager",
+    "tenure_days": 806,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Zoom",
+      "Jira",
+      "Slack",
+      "Google Workspace",
+      "SAP"
+    ],
+    "risk_score": 0.046439047582219235
+  },
+  {
+    "user_id": "user_0022",
+    "department": "Sales",
+    "location": "New York",
+    "role": "Analyst",
+    "tenure_days": 1216,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "SAP",
+      "Confluence",
+      "Salesforce"
+    ],
+    "risk_score": 0.015042701179186067
+  },
+  {
+    "user_id": "user_0023",
+    "department": "HR",
+    "location": "Chicago",
+    "role": "Executive",
+    "tenure_days": 352,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "Workday",
+      "Azure Portal"
+    ],
+    "risk_score": 0.020388259012727172
+  },
+  {
+    "user_id": "user_0024",
+    "department": "Engineering",
+    "location": "Remote",
+    "role": "Analyst",
+    "tenure_days": 1958,
+    "normal_login_hours": [
+      10,
+      16
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Salesforce",
+      "SAP",
+      "Workday",
+      "Slack",
+      "Confluence",
+      "Jira"
+    ],
+    "risk_score": 0.16956807715322683
+  },
+  {
+    "user_id": "user_0025",
+    "department": "Sales",
+    "location": "London",
+    "role": "Manager",
+    "tenure_days": 1401,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Jira",
+      "Slack",
+      "AWS Console",
+      "SAP"
+    ],
+    "risk_score": 0.1371673717711356
+  },
+  {
+    "user_id": "user_0026",
+    "department": "Finance",
+    "location": "Toronto",
+    "role": "Engineer",
+    "tenure_days": 1302,
+    "normal_login_hours": [
+      10,
+      16
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "GitHub",
+      "SAP"
+    ],
+    "risk_score": 0.07956012442512041
+  },
+  {
+    "user_id": "user_0027",
+    "department": "Sales",
+    "location": "Toronto",
+    "role": "Manager",
+    "tenure_days": 786,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Jira",
+      "Azure Portal",
+      "SAP",
+      "Salesforce",
+      "Confluence"
+    ],
+    "risk_score": 0.24513124053463847
+  },
+  {
+    "user_id": "user_0028",
+    "department": "Sales",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 1952,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Workday",
+      "Google Workspace",
+      "AWS Console"
+    ],
+    "risk_score": 0.0817044636944449
+  },
+  {
+    "user_id": "user_0029",
+    "department": "IT",
+    "location": "New York",
+    "role": "Admin",
+    "tenure_days": 446,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Zoom",
+      "Jira",
+      "Salesforce",
+      "Workday"
+    ],
+    "risk_score": 0.19028533419275825
+  },
+  {
+    "user_id": "user_0030",
+    "department": "Sales",
+    "location": "Toronto",
+    "role": "Analyst",
+    "tenure_days": 713,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "Zoom",
+      "Google Workspace",
+      "Slack",
+      "Salesforce"
+    ],
+    "risk_score": 0.0335621641768005
+  },
+  {
+    "user_id": "user_0031",
+    "department": "Executive",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 103,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "Slack",
+      "SAP",
+      "Salesforce",
+      "Jira",
+      "Azure Portal",
+      "Google Workspace"
+    ],
+    "risk_score": 0.26967739095794235
+  },
+  {
+    "user_id": "user_0032",
+    "department": "Engineering",
+    "location": "Austin",
+    "role": "Manager",
+    "tenure_days": 1395,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Slack",
+      "Azure Portal",
+      "AWS Console",
+      "GitHub",
+      "ServiceNow",
+      "SAP",
+      "Workday"
+    ],
+    "risk_score": 0.2644248613989973
+  },
+  {
+    "user_id": "user_0033",
+    "department": "Finance",
+    "location": "New York",
+    "role": "Admin",
+    "tenure_days": 1632,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "GitHub",
+      "Jira",
+      "AWS Console",
+      "Workday",
+      "Slack",
+      "Zoom",
+      "Salesforce",
+      "SAP"
+    ],
+    "risk_score": 0.06673011526369933
+  },
+  {
+    "user_id": "user_0034",
+    "department": "HR",
+    "location": "London",
+    "role": "Admin",
+    "tenure_days": 1710,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "ServiceNow",
+      "GitHub",
+      "Slack"
+    ],
+    "risk_score": 0.09847858535931195
+  },
+  {
+    "user_id": "user_0035",
+    "department": "Finance",
+    "location": "London",
+    "role": "Admin",
+    "tenure_days": 1343,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Confluence",
+      "Salesforce",
+      "Workday",
+      "Jira",
+      "SAP",
+      "Zoom",
+      "AWS Console"
+    ],
+    "risk_score": 0.011477159205978815
+  },
+  {
+    "user_id": "user_0036",
+    "department": "IT",
+    "location": "Remote",
+    "role": "Admin",
+    "tenure_days": 1522,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Workday",
+      "Slack",
+      "GitHub",
+      "Jira",
+      "Salesforce",
+      "Confluence"
+    ],
+    "risk_score": 0.1308172546364917
+  },
+  {
+    "user_id": "user_0037",
+    "department": "IT",
+    "location": "Chicago",
+    "role": "Manager",
+    "tenure_days": 775,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Azure Portal",
+      "SAP",
+      "Workday",
+      "Jira",
+      "Zoom",
+      "AWS Console",
+      "GitHub"
+    ],
+    "risk_score": 0.09785487145721995
+  },
+  {
+    "user_id": "user_0038",
+    "department": "Executive",
+    "location": "London",
+    "role": "Executive",
+    "tenure_days": 290,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Slack",
+      "ServiceNow",
+      "AWS Console",
+      "Jira",
+      "SAP",
+      "Google Workspace",
+      "Salesforce",
+      "Azure Portal"
+    ],
+    "risk_score": 0.08607411506067815
+  },
+  {
+    "user_id": "user_0039",
+    "department": "HR",
+    "location": "Chicago",
+    "role": "Executive",
+    "tenure_days": 1370,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Zoom",
+      "ServiceNow",
+      "GitHub",
+      "Google Workspace",
+      "SAP",
+      "Slack"
+    ],
+    "risk_score": 0.2703542477484763
+  },
+  {
+    "user_id": "user_0040",
+    "department": "Executive",
+    "location": "New York",
+    "role": "Analyst",
+    "tenure_days": 611,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Confluence",
+      "Workday",
+      "GitHub",
+      "Jira",
+      "SAP",
+      "Slack",
+      "ServiceNow"
+    ],
+    "risk_score": 0.007327616318047903
+  },
+  {
+    "user_id": "user_0041",
+    "department": "Engineering",
+    "location": "Remote",
+    "role": "Executive",
+    "tenure_days": 1770,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "ServiceNow",
+      "Azure Portal",
+      "GitHub",
+      "Slack",
+      "Zoom",
+      "SAP"
+    ],
+    "risk_score": 0.07319533187353165
+  },
+  {
+    "user_id": "user_0042",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 1858,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "Google Workspace",
+      "Zoom",
+      "Salesforce"
+    ],
+    "risk_score": 0.1672217382100186
+  },
+  {
+    "user_id": "user_0043",
+    "department": "Finance",
+    "location": "Remote",
+    "role": "Manager",
+    "tenure_days": 1671,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Azure Portal",
+      "Confluence",
+      "Zoom",
+      "Slack",
+      "SAP",
+      "Jira"
+    ],
+    "risk_score": 0.13377408362301013
+  },
+  {
+    "user_id": "user_0044",
+    "department": "Engineering",
+    "location": "Austin",
+    "role": "Engineer",
+    "tenure_days": 951,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Jira",
+      "Google Workspace",
+      "Zoom",
+      "GitHub",
+      "SAP",
+      "ServiceNow",
+      "Salesforce",
+      "AWS Console"
+    ],
+    "risk_score": 0.0703480734043906
+  },
+  {
+    "user_id": "user_0045",
+    "department": "Sales",
+    "location": "London",
+    "role": "Executive",
+    "tenure_days": 195,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Slack",
+      "AWS Console",
+      "GitHub",
+      "Workday"
+    ],
+    "risk_score": 0.12446036876946544
+  },
+  {
+    "user_id": "user_0046",
+    "department": "Sales",
+    "location": "Chicago",
+    "role": "Engineer",
+    "tenure_days": 881,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Slack",
+      "Azure Portal",
+      "Salesforce",
+      "SAP",
+      "Zoom",
+      "ServiceNow"
+    ],
+    "risk_score": 0.28282249723022906
+  },
+  {
+    "user_id": "user_0047",
+    "department": "Sales",
+    "location": "Remote",
+    "role": "Engineer",
+    "tenure_days": 1132,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "GitHub",
+      "Zoom",
+      "ServiceNow",
+      "Jira",
+      "Google Workspace",
+      "Slack"
+    ],
+    "risk_score": 0.008707445984014572
+  },
+  {
+    "user_id": "user_0048",
+    "department": "Sales",
+    "location": "Austin",
+    "role": "Engineer",
+    "tenure_days": 1513,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Google Workspace",
+      "Salesforce",
+      "Slack"
+    ],
+    "risk_score": 0.17756783268837326
+  },
+  {
+    "user_id": "user_0049",
+    "department": "Executive",
+    "location": "Toronto",
+    "role": "Analyst",
+    "tenure_days": 1346,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "Salesforce",
+      "Jira",
+      "Slack",
+      "Confluence",
+      "Workday"
+    ],
+    "risk_score": 0.13640979750494464
+  },
+  {
+    "user_id": "user_0050",
+    "department": "Sales",
+    "location": "Remote",
+    "role": "Admin",
+    "tenure_days": 1570,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Zoom",
+      "Salesforce",
+      "Google Workspace"
+    ],
+    "risk_score": 0.015625682472976642
+  },
+  {
+    "user_id": "user_0051",
+    "department": "Sales",
+    "location": "New York",
+    "role": "Analyst",
+    "tenure_days": 1629,
+    "normal_login_hours": [
+      10,
+      16
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "GitHub",
+      "SAP",
+      "Salesforce"
+    ],
+    "risk_score": 0.18640069697584735
+  },
+  {
+    "user_id": "user_0052",
+    "department": "Engineering",
+    "location": "New York",
+    "role": "Engineer",
+    "tenure_days": 1401,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Zoom",
+      "Jira",
+      "Confluence",
+      "AWS Console"
+    ],
+    "risk_score": 0.1817678077680934
+  },
+  {
+    "user_id": "user_0053",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 1622,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Salesforce",
+      "Jira"
+    ],
+    "risk_score": 0.17273901852372422
+  },
+  {
+    "user_id": "user_0054",
+    "department": "HR",
+    "location": "Remote",
+    "role": "Manager",
+    "tenure_days": 185,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "GitHub",
+      "Workday",
+      "Jira",
+      "ServiceNow",
+      "Salesforce",
+      "AWS Console",
+      "Azure Portal",
+      "SAP"
+    ],
+    "risk_score": 0.19845640220620678
+  },
+  {
+    "user_id": "user_0055",
+    "department": "Finance",
+    "location": "Chicago",
+    "role": "Admin",
+    "tenure_days": 55,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Slack",
+      "Confluence",
+      "Zoom"
+    ],
+    "risk_score": 0.21219259311182306
+  },
+  {
+    "user_id": "user_0056",
+    "department": "HR",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 1362,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Zoom",
+      "SAP",
+      "Slack",
+      "Jira",
+      "Confluence",
+      "Azure Portal",
+      "Workday"
+    ],
+    "risk_score": 0.249219305667181
+  },
+  {
+    "user_id": "user_0057",
+    "department": "Finance",
+    "location": "London",
+    "role": "Engineer",
+    "tenure_days": 529,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "ServiceNow",
+      "Slack",
+      "Confluence",
+      "Salesforce",
+      "Zoom",
+      "SAP",
+      "AWS Console"
+    ],
+    "risk_score": 0.05455195714730754
+  },
+  {
+    "user_id": "user_0058",
+    "department": "Engineering",
+    "location": "London",
+    "role": "Admin",
+    "tenure_days": 727,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Jira",
+      "Google Workspace",
+      "Salesforce",
+      "ServiceNow",
+      "GitHub",
+      "Azure Portal",
+      "Workday",
+      "Zoom"
+    ],
+    "risk_score": 0.1465733540546362
+  },
+  {
+    "user_id": "user_0059",
+    "department": "Engineering",
+    "location": "Austin",
+    "role": "Engineer",
+    "tenure_days": 1352,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Workday",
+      "Jira",
+      "GitHub",
+      "Slack",
+      "Confluence"
+    ],
+    "risk_score": 0.07299154916302715
+  },
+  {
+    "user_id": "user_0060",
+    "department": "Executive",
+    "location": "Chicago",
+    "role": "Admin",
+    "tenure_days": 999,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Slack",
+      "Google Workspace",
+      "Confluence",
+      "Azure Portal",
+      "Zoom"
+    ],
+    "risk_score": 0.0812749280928589
+  },
+  {
+    "user_id": "user_0061",
+    "department": "Sales",
+    "location": "New York",
+    "role": "Analyst",
+    "tenure_days": 1507,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "SAP",
+      "Google Workspace",
+      "AWS Console"
+    ],
+    "risk_score": 0.05746229190316342
+  },
+  {
+    "user_id": "user_0062",
+    "department": "Executive",
+    "location": "Remote",
+    "role": "Admin",
+    "tenure_days": 1513,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Jira",
+      "Workday",
+      "GitHub",
+      "SAP",
+      "Azure Portal",
+      "AWS Console",
+      "ServiceNow"
+    ],
+    "risk_score": 0.09068027663413067
+  },
+  {
+    "user_id": "user_0063",
+    "department": "Executive",
+    "location": "Chicago",
+    "role": "Manager",
+    "tenure_days": 591,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Jira",
+      "AWS Console",
+      "Zoom",
+      "Workday",
+      "Salesforce",
+      "SAP",
+      "ServiceNow"
+    ],
+    "risk_score": 0.14081908347915306
+  },
+  {
+    "user_id": "user_0064",
+    "department": "HR",
+    "location": "London",
+    "role": "Manager",
+    "tenure_days": 135,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Workday",
+      "Slack",
+      "Zoom"
+    ],
+    "risk_score": 0.022224651076691936
+  },
+  {
+    "user_id": "user_0065",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 340,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Workday",
+      "GitHub",
+      "SAP",
+      "Google Workspace",
+      "Slack"
+    ],
+    "risk_score": 0.18189529537288882
+  },
+  {
+    "user_id": "user_0066",
+    "department": "IT",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 809,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Slack",
+      "Jira",
+      "Salesforce",
+      "Workday"
+    ],
+    "risk_score": 0.2842770600976134
+  },
+  {
+    "user_id": "user_0067",
+    "department": "Engineering",
+    "location": "Austin",
+    "role": "Manager",
+    "tenure_days": 571,
+    "normal_login_hours": [
+      10,
+      16
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "GitHub",
+      "AWS Console",
+      "Google Workspace",
+      "Workday"
+    ],
+    "risk_score": 0.04695978463294143
+  },
+  {
+    "user_id": "user_0068",
+    "department": "HR",
+    "location": "Remote",
+    "role": "Executive",
+    "tenure_days": 992,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Jira",
+      "SAP",
+      "Zoom",
+      "Workday"
+    ],
+    "risk_score": 0.20621547602137283
+  },
+  {
+    "user_id": "user_0069",
+    "department": "Sales",
+    "location": "Austin",
+    "role": "Executive",
+    "tenure_days": 1384,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "GitHub",
+      "AWS Console"
+    ],
+    "risk_score": 0.27252343356378184
+  },
+  {
+    "user_id": "user_0070",
+    "department": "Engineering",
+    "location": "Toronto",
+    "role": "Analyst",
+    "tenure_days": 369,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Jira",
+      "Zoom",
+      "Workday",
+      "SAP",
+      "Confluence",
+      "AWS Console",
+      "GitHub"
+    ],
+    "risk_score": 0.2828028722232122
+  },
+  {
+    "user_id": "user_0071",
+    "department": "IT",
+    "location": "Chicago",
+    "role": "Engineer",
+    "tenure_days": 926,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Slack",
+      "Confluence",
+      "Azure Portal"
+    ],
+    "risk_score": 0.07511037072360117
+  },
+  {
+    "user_id": "user_0072",
+    "department": "Finance",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 1232,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Salesforce",
+      "AWS Console",
+      "Zoom",
+      "Google Workspace"
+    ],
+    "risk_score": 0.27482183637803026
+  },
+  {
+    "user_id": "user_0073",
+    "department": "Engineering",
+    "location": "Chicago",
+    "role": "Engineer",
+    "tenure_days": 1330,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Slack",
+      "SAP",
+      "Azure Portal",
+      "Workday",
+      "ServiceNow"
+    ],
+    "risk_score": 0.04824745579765065
+  },
+  {
+    "user_id": "user_0074",
+    "department": "HR",
+    "location": "Austin",
+    "role": "Engineer",
+    "tenure_days": 620,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Zoom",
+      "Workday",
+      "Confluence",
+      "Jira",
+      "AWS Console",
+      "SAP"
+    ],
+    "risk_score": 0.2910554180425731
+  },
+  {
+    "user_id": "user_0075",
+    "department": "HR",
+    "location": "Chicago",
+    "role": "Analyst",
+    "tenure_days": 1376,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "GitHub",
+      "Google Workspace",
+      "Confluence",
+      "Zoom",
+      "Azure Portal"
+    ],
+    "risk_score": 0.13261228671667843
+  },
+  {
+    "user_id": "user_0076",
+    "department": "Finance",
+    "location": "New York",
+    "role": "Admin",
+    "tenure_days": 1154,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "SAP",
+      "Zoom",
+      "Workday",
+      "Salesforce",
+      "GitHub",
+      "Confluence"
+    ],
+    "risk_score": 0.04751344914156972
+  },
+  {
+    "user_id": "user_0077",
+    "department": "IT",
+    "location": "Toronto",
+    "role": "Executive",
+    "tenure_days": 865,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Zoom",
+      "Workday",
+      "AWS Console"
+    ],
+    "risk_score": 0.14951265141215858
+  },
+  {
+    "user_id": "user_0078",
+    "department": "Executive",
+    "location": "London",
+    "role": "Executive",
+    "tenure_days": 1474,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Zoom",
+      "GitHub",
+      "SAP",
+      "Google Workspace",
+      "AWS Console",
+      "ServiceNow"
+    ],
+    "risk_score": 0.057183111284378495
+  },
+  {
+    "user_id": "user_0079",
+    "department": "IT",
+    "location": "Chicago",
+    "role": "Manager",
+    "tenure_days": 1799,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Google Workspace",
+      "Jira",
+      "Salesforce",
+      "Azure Portal",
+      "SAP"
+    ],
+    "risk_score": 0.08956675493153016
+  },
+  {
+    "user_id": "user_0080",
+    "department": "IT",
+    "location": "Chicago",
+    "role": "Engineer",
+    "tenure_days": 1802,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Chicago"
+    ],
+    "common_apps": [
+      "Zoom",
+      "Confluence",
+      "ServiceNow",
+      "Google Workspace",
+      "Slack",
+      "GitHub",
+      "AWS Console"
+    ],
+    "risk_score": 0.26088050497022053
+  },
+  {
+    "user_id": "user_0081",
+    "department": "Executive",
+    "location": "New York",
+    "role": "Executive",
+    "tenure_days": 814,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "New York"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Zoom",
+      "Slack"
+    ],
+    "risk_score": 0.1158236257472947
+  },
+  {
+    "user_id": "user_0082",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Manager",
+    "tenure_days": 1044,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Confluence",
+      "Workday",
+      "Zoom",
+      "SAP",
+      "Jira",
+      "GitHub"
+    ],
+    "risk_score": 0.004604279374578191
+  },
+  {
+    "user_id": "user_0083",
+    "department": "Engineering",
+    "location": "Remote",
+    "role": "Manager",
+    "tenure_days": 183,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Slack",
+      "Workday",
+      "Confluence",
+      "ServiceNow"
+    ],
+    "risk_score": 0.2862418777868028
+  },
+  {
+    "user_id": "user_0084",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Engineer",
+    "tenure_days": 1816,
+    "normal_login_hours": [
+      10,
+      16
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Workday",
+      "GitHub",
+      "Jira",
+      "ServiceNow",
+      "SAP",
+      "Google Workspace",
+      "Salesforce"
+    ],
+    "risk_score": 0.2281109078982796
+  },
+  {
+    "user_id": "user_0085",
+    "department": "Executive",
+    "location": "Toronto",
+    "role": "Engineer",
+    "tenure_days": 370,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Confluence",
+      "SAP"
+    ],
+    "risk_score": 0.08801033278956263
+  },
+  {
+    "user_id": "user_0086",
+    "department": "Sales",
+    "location": "Remote",
+    "role": "Manager",
+    "tenure_days": 530,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "ServiceNow",
+      "AWS Console",
+      "SAP",
+      "Azure Portal",
+      "Workday",
+      "Jira",
+      "GitHub"
+    ],
+    "risk_score": 0.1859131105612246
+  },
+  {
+    "user_id": "user_0087",
+    "department": "Engineering",
+    "location": "Remote",
+    "role": "Executive",
+    "tenure_days": 323,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Jira",
+      "Zoom",
+      "SAP",
+      "Salesforce",
+      "ServiceNow",
+      "AWS Console",
+      "Confluence",
+      "Azure Portal"
+    ],
+    "risk_score": 0.04739268662153608
+  },
+  {
+    "user_id": "user_0088",
+    "department": "HR",
+    "location": "London",
+    "role": "Executive",
+    "tenure_days": 642,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Jira",
+      "Zoom",
+      "SAP",
+      "GitHub",
+      "Slack",
+      "ServiceNow",
+      "Google Workspace",
+      "Salesforce"
+    ],
+    "risk_score": 0.07116171057827238
+  },
+  {
+    "user_id": "user_0089",
+    "department": "IT",
+    "location": "London",
+    "role": "Executive",
+    "tenure_days": 635,
+    "normal_login_hours": [
+      10,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "ServiceNow",
+      "Slack",
+      "Jira"
+    ],
+    "risk_score": 0.002429389728447073
+  },
+  {
+    "user_id": "user_0090",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 1894,
+    "normal_login_hours": [
+      10,
+      18
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Jira",
+      "GitHub",
+      "Azure Portal",
+      "Confluence",
+      "ServiceNow",
+      "Google Workspace"
+    ],
+    "risk_score": 0.057039596783126485
+  },
+  {
+    "user_id": "user_0091",
+    "department": "Sales",
+    "location": "Austin",
+    "role": "Manager",
+    "tenure_days": 1316,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Salesforce",
+      "Jira",
+      "Zoom",
+      "SAP",
+      "Confluence",
+      "Azure Portal",
+      "Workday",
+      "Google Workspace"
+    ],
+    "risk_score": 0.272888343695798
+  },
+  {
+    "user_id": "user_0092",
+    "department": "Sales",
+    "location": "Austin",
+    "role": "Engineer",
+    "tenure_days": 389,
+    "normal_login_hours": [
+      8,
+      16
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Google Workspace",
+      "ServiceNow",
+      "Jira",
+      "AWS Console",
+      "Zoom",
+      "GitHub"
+    ],
+    "risk_score": 0.29021522285004364
+  },
+  {
+    "user_id": "user_0093",
+    "department": "Sales",
+    "location": "Austin",
+    "role": "Admin",
+    "tenure_days": 1677,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "AWS Console",
+      "GitHub",
+      "Slack"
+    ],
+    "risk_score": 0.2901809241900097
+  },
+  {
+    "user_id": "user_0094",
+    "department": "IT",
+    "location": "London",
+    "role": "Analyst",
+    "tenure_days": 1649,
+    "normal_login_hours": [
+      9,
+      16
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Google Workspace",
+      "Workday",
+      "Zoom",
+      "Confluence",
+      "Jira"
+    ],
+    "risk_score": 0.1753680274956498
+  },
+  {
+    "user_id": "user_0095",
+    "department": "Executive",
+    "location": "London",
+    "role": "Analyst",
+    "tenure_days": 1412,
+    "normal_login_hours": [
+      8,
+      17
+    ],
+    "normal_locations": [
+      "London"
+    ],
+    "common_apps": [
+      "Azure Portal",
+      "Google Workspace",
+      "Confluence"
+    ],
+    "risk_score": 0.27457677262294783
+  },
+  {
+    "user_id": "user_0096",
+    "department": "Engineering",
+    "location": "Austin",
+    "role": "Analyst",
+    "tenure_days": 1331,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "ServiceNow",
+      "Slack",
+      "Workday",
+      "AWS Console",
+      "Salesforce"
+    ],
+    "risk_score": 0.2838784598645839
+  },
+  {
+    "user_id": "user_0097",
+    "department": "Sales",
+    "location": "Remote",
+    "role": "Analyst",
+    "tenure_days": 229,
+    "normal_login_hours": [
+      8,
+      18
+    ],
+    "normal_locations": [
+      "Remote"
+    ],
+    "common_apps": [
+      "Slack",
+      "Zoom",
+      "Confluence",
+      "Google Workspace"
+    ],
+    "risk_score": 0.12573802602441683
+  },
+  {
+    "user_id": "user_0098",
+    "department": "Executive",
+    "location": "Austin",
+    "role": "Manager",
+    "tenure_days": 1843,
+    "normal_login_hours": [
+      9,
+      18
+    ],
+    "normal_locations": [
+      "Austin"
+    ],
+    "common_apps": [
+      "Zoom",
+      "Azure Portal",
+      "Slack"
+    ],
+    "risk_score": 0.2817159197140966
+  },
+  {
+    "user_id": "user_0099",
+    "department": "Sales",
+    "location": "Toronto",
+    "role": "Admin",
+    "tenure_days": 474,
+    "normal_login_hours": [
+      9,
+      17
+    ],
+    "normal_locations": [
+      "Toronto"
+    ],
+    "common_apps": [
+      "Confluence",
+      "Workday",
+      "SAP",
+      "Google Workspace"
+    ],
+    "risk_score": 0.2705088637273964
+  }
+]
