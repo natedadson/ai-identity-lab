@@ -29,6 +29,7 @@ All 6 projects are **COMPLETE** with working code, APIs, and web dashboards.
 | 5 | **Identity Graph Analytics** | ✅ Complete | NetworkX, Neo4j, matplotlib | 1,028 nodes, 2,275 relationships |
 | 6 | **REST API + Web Dashboard** | ✅ Complete | FastAPI, HTML/JS | Production-ready endpoints |
 | 7 | **UEBA Detection** | ✅ Complete | Behavioral baselines, FastAPI, anomaly detection | 706 alerts from 9,062 events |
+| 8 | **Fraud Detection** | ✅ Complete | LSTM, Random Forest, NetworkX, FastAPI | Real-time transaction fraud scoring |
 
 ## 🚀 Quick Start
 
@@ -85,6 +86,11 @@ open 04-ai-access-review-assistant/ui/simple_web.html
 python 06-ueba-detection/src/ueba_api.py
 
 
+### Generate Fraud Detection Data
+
+```bash
+python 08-fraud-detection/src/generate_transactions.py
+
 ## 📁 Project Structure
 
 ```
@@ -96,6 +102,8 @@ ai-identity-lab/
 ├── 04-ai-access-review-assistant/ # ✅ LLM + RAG Reviewer
 ├── 05-identity-graph-analytics/   # ✅ Graph Analytics
 ├── 06-ueba-detection/             # ✅ User & Entity Behavior Analytics
+├── 07-enterprise-integration/ # ✅ Slack/Email/Webhook Integration
+├── 08-fraud-detection/ # ✅ AI-Driven Fraud Detection
 ├── datasets/                      # Synthetic identity data
 ├── research-papers/               # Academic publications
 └── linkedin-articles/             # Technical blog posts
@@ -135,6 +143,17 @@ ai-identity-lab/
 - **706 alerts** generated (99 critical, 607 high)
 - **4 anomaly types**: Unusual hours, locations, apps, rapid access
 - **Real-time API** with interactive dashboard
+
+
+### Add Fraud Detection
+
+```markdown
+### Fraud Detection
+- **500 users** with behavioral profiles
+- **45,000+ transactions** generated
+- **Real-time scoring** with FastAPI
+- **Money mule detection** via graph networks
+- **Multiple fraud patterns**: Large transactions, high-risk locations, structuring
 
 ## 🧪 Research Paper
 
@@ -177,7 +196,7 @@ MIT License - Free for academic and commercial use with attribution.
 
 ---
 
-**7 projects. ~2,500 lines of code. 91.9% accuracy. 706 UEBA alerts.**
+**8 projects. ~3,000 lines of code. 91.9% accuracy. 706 UEBA alerts. Real-time fraud detection.**
 
 *The future of identity governance is not human or machine. It is human and machine, working together.*
 
