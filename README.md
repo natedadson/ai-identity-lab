@@ -86,11 +86,6 @@ open 04-ai-access-review-assistant/ui/simple_web.html
 python 06-ueba-detection/src/ueba_api.py
 
 
-### Generate Fraud Detection Data
-
-```bash
-python 08-fraud-detection/src/generate_transactions.py
-
 ## 📁 Project Structure
 
 ```
@@ -145,7 +140,7 @@ ai-identity-lab/
 - **Real-time API** with interactive dashboard
 
 
-### Add Fraud Detection
+### Fraud Detection
 
 ```markdown
 ### Fraud Detection
